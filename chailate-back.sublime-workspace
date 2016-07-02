@@ -1,0 +1,800 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"Ho",
+				"HolaMundo"
+			],
+			[
+				"ToDo",
+				"ToDoAdmin"
+			],
+			[
+				"tod",
+				"todo"
+			],
+			[
+				"Si",
+				"SignUp"
+			],
+			[
+				"url",
+				"urls"
+			],
+			[
+				"STA",
+				"STATIC_URL"
+			],
+			[
+				"clean",
+				"cleaned_data"
+			],
+			[
+				"cont",
+				"contactTop"
+			],
+			[
+				"po",
+				"portfoliotype"
+			],
+			[
+				"is",
+				"isActiveAnimation"
+			],
+			[
+				"port",
+				"portfolio"
+			],
+			[
+				"get",
+				"getPortfolioService"
+			],
+			[
+				"ser",
+				"serviceUrl"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"show",
+				"showGallery"
+			],
+			[
+				"sele",
+				"selectedImage"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"co",
+				"counter"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"an",
+				"anchorScroll"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"a",
+				"action	Attr"
+			],
+			[
+				"s",
+				"src	Attr"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"padding-t",
+				"padding-top"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"site",
+				"site_title"
+			],
+			[
+				"the_t",
+				"get_the_title"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"set",
+				"setupHomeSlider"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"send",
+				"sendSuppEmail"
+			],
+			[
+				"Supp",
+				"SuppliersXls"
+			],
+			[
+				"suppsl",
+				"suppXls"
+			],
+			[
+				"las",
+				"lastSearch"
+			],
+			[
+				"search",
+				"search-suppliers"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"SearchS",
+				"SearchSuppliers"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"loa",
+				"loadCities"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"js",
+				"json_name"
+			],
+			[
+				"sp",
+				"span	Tag"
+			],
+			[
+				"ar",
+				"arreglo"
+			],
+			[
+				"arr",
+				"arregloPujas"
+			],
+			[
+				"json",
+				"jsonArreglo"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"fecha",
+				"fechaPostura"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"ty",
+				"type	Attr"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"nu",
+				"num1"
+			],
+			[
+				"cor",
+				"correr"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"val",
+				"valA"
+			],
+			[
+				"re",
+				"resultado"
+			],
+			[
+				"valo",
+				"valorB"
+			],
+			[
+				"o",
+				"onload	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"view.encoding()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/chailate_backend"
+	],
+	"file_history":
+	[
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/chailate_backend/settings.py",
+		"/Users/dimegan/Desktop/SCRUM open-close.txt",
+		"/Applications/MAMP/htdocs/jilo-magazine/wp-config.php",
+		"/Applications/MAMP/htdocs/devstudio/chailate/blog/wp-config.php",
+		"/Applications/MAMP/htdocs/devstudio/chailate/jsons/portfolio-diseno.json",
+		"/Applications/MAMP/htdocs/devstudio/chailate/js/app/home/home.html",
+		"/Applications/MAMP/htdocs/devstudio/chailate/index.html",
+		"/Applications/MAMP/htdocs/devstudio/chailate/css/chai-style.css",
+		"/Applications/MAMP/htdocs/devstudio/chailate/jsons/work-gallery.json",
+		"/Applications/MAMP/htdocs/devstudio/chailate/js/app/design/design.html",
+		"/Applications/MAMP/htdocs/devstudio/chailate/js/app/photo/photo.html",
+		"/Applications/MAMP/htdocs/devstudio/chailate/js/app/mkt/mkt.html",
+		"/Applications/MAMP/htdocs/devstudio/chailate/js/app/dev/dev.html",
+		"/Users/dimegan/Documents/dmg project/chailate/chailate.jpg",
+		"/Users/dimegan/Desktop/junta con sergio.txt",
+		"/Applications/MAMP/htdocs/estrategia/wp-config.php",
+		"/Users/dimegan/django-projects/connect-mysql/testmysql/testmysql/models.py",
+		"/Users/dimegan/django-projects/connect-mysql/testmysql/testmysql/forms.py",
+		"/Users/dimegan/django-projects/connect-mysql/testmysql/testmysql/admin.py",
+		"/Users/dimegan/django-projects/connect-mysql/testmysql/testmysql/urls.py",
+		"/Users/dimegan/django-projects/connect-mysql/testmysql/api/models.py",
+		"/Users/dimegan/django-projects/connect-mysql/testmysql/testmysql/settings.py",
+		"/Users/dimegan/django-projects/connect-mysql/testmysql/api/views.py",
+		"/Users/dimegan/django-projects/connect-mysql/testmysql/api/urls.py",
+		"/Users/dimegan/django-projects/connect-mysql/testmysql/api/serializers.py",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/templates/navbar.html",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/newsletter/views.py",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/templates/home.html",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/my_project/views.py",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/templates/head_css.html",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/templates/base.html",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/static_in_pro/our_static/css/custom-style.css",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/my_project/settings.py",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/templates/forms.html",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/my_project/urls.py",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/templates/about.html",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/templates/javascript.html",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/newsletter/forms.py",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/static_in_pro/our_static/img/example.txt",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/newsletter/models.py",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/newsletter/admin.py",
+		"/Users/dimegan/djangoprojects/firstproject/my_project/newsletter/templates/home.html",
+		"/Applications/MAMP/htdocs/back/pruebas/programa.js",
+		"/Applications/MAMP/htdocs/back/pruebas/index.html",
+		"/Applications/MAMP/htdocs/pruebas/cocostudio/js/controllers.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/widgets/coImageModal.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/widgets/coImageGallery.js",
+		"/Users/dimegan/Downloads/Historias 3er Sprint.pages",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/dev/dev.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/index.html",
+		"/Applications/MAMP/htdocs/pruebas/pop-tutorial/css/bootstrap.min.css",
+		"/Applications/MAMP/htdocs/pruebas/pop-tutorial/css/coco-style.css",
+		"/Applications/MAMP/htdocs/pruebas/pop-tutorial/index.html",
+		"/Applications/MAMP/htdocs/pruebas/cocostudio/index.html",
+		"/Applications/MAMP/htdocs/back/localstores/cocostudio/templates/img-single.html",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/jsons/work-gallery.json",
+		"/Users/dimegan/Documents/dmg project/POCS/angular-scroll-event.js",
+		"/Users/dimegan/Desktop/rich-texteditor/website/css/editor.css",
+		"/Users/dimegan/Desktop/rich-texteditor/website/prueba-agile.html",
+		"/Users/dimegan/Downloads/xing-wysihtml5-fb0cfe4/website/prueba-agile.html",
+		"/Users/dimegan/Downloads/xing-wysihtml5-fb0cfe4/website/index.html",
+		"/Users/dimegan/Downloads/wordpress.sql",
+		"/Users/dimegan/Desktop/querys-customfields.txt",
+		"/Applications/MAMP/htdocs/pruebas/angular-animation/templates/img-single.html",
+		"/Applications/MAMP/htdocs/pruebas/angular-animation/js/app/design/design.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/new-home.html",
+		"/Users/dimegan/Documents/dmg project/angularjs/ng-demos-master/modular/src/client/app/widgets/ccSidebar.js",
+		"/Users/dimegan/Documents/dmg project/angularjs/ng-demos-master/modular/src/client/app/widgets/widgets.module.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/design/design.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/home/home.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/home/config.route.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/design/design.html",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/design/design.module.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/design/config.route.js",
+		"/Users/dimegan/Documents/dmg project/angularjs/ng-demos-master/modular/src/client/app/core/config.js",
+		"/Applications/MAMP/htdocs/localstores/cocostudio/js/app/blocks/router/routehelper.js",
+		"/Users/dimegan/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/estrategia/wp-content/themes/estrategia-theme/style.css",
+		"/Applications/MAMP/htdocs/estrategia/wp-content/themes/estrategia-theme/functions.php",
+		"/Users/dimegan/Downloads/bootstrap-3.3.6-dist/css/bootstrap3.min.css",
+		"/Applications/MAMP/htdocs/estrategia/wp-content/themes/estrategia-theme/css/bootstrap/bootstrap.min.css",
+		"/Users/dimegan/Documents/nuevas pruebas SAP-volaris.txt",
+		"/Users/dimegan/Documents/ejercicio PROMISES.txt",
+		"/Users/dimegan/Downloads/CENACE status",
+		"/Users/dimegan/Downloads/code review Kevin.js",
+		"/Applications/MAMP/htdocs/empresa/angular-test/phones.json",
+		"/Applications/MAMP/htdocs/empresa/angular-test/js/controllers.js",
+		"/Applications/MAMP/htdocs/empresa/angular-test/js/app.js",
+		"/Applications/MAMP/htdocs/empresa/angular-test/partials/phone-detail.html",
+		"/Applications/MAMP/htdocs/empresa/angular-test/partials/phone-list.html",
+		"/Applications/MAMP/htdocs/empresa/angular-test/index.html",
+		"/Users/dimegan/Documents/my-SAMBA/cfd/cfd5.xml",
+		"/Users/dimegan/Documents/my-SAMBA/cfd/cfd4.xml",
+		"/Users/dimegan/Documents/my-SAMBA/cfd/cfd3.xml",
+		"/Users/dimegan/Documents/my-SAMBA/cfd/cfd2.xml",
+		"/Users/dimegan/Documents/my-SAMBA/cfd/cfd.xml",
+		"/Users/dimegan/Downloads/queryDetalle.txt",
+		"/Applications/MAMP/htdocs/empresa/cocostudio/index.html",
+		"/Applications/MAMP/htdocs/empresa/cocostudio/css/coco-style.css",
+		"/Users/dimegan/Downloads/modernizr-custom.js",
+		"/Users/dimegan/Desktop/reporte-dist-gastos.txt",
+		"/Users/dimegan/Desktop/Reporte de Gastos.txt",
+		"/Users/dimegan/Desktop/Agora/Agora code/agora.loc/css/plugins/icheck/line/line.css",
+		"/Users/dimegan/Desktop/agora-qa-httpd.conf",
+		"/Users/dimegan/Downloads/sitemap.xml",
+		"/Users/dimegan/Desktop/JSON probar volaris.txt",
+		"/Users/dimegan/Desktop/estilo.css",
+		"/Users/dimegan/Desktop/pagina.html",
+		"/Users/dimegan/Downloads/Reporte con mails.txt",
+		"/private/etc/hosts",
+		"/Users/dimegan/Desktop/JSON servicio Solped y odc.txt",
+		"/Users/dimegan/Desktop/ali.txt",
+		"/Users/dimegan/Desktop/json-proveedores",
+		"/Users/dimegan/Downloads/json aklara suppliers.txt",
+		"/Users/dimegan/Downloads/json purchase order status-1.txt",
+		"/Users/dimegan/Downloads/json aklara Request status.txt",
+		"/Users/dimegan/Downloads/json aklara Request status-1.txt",
+		"/Users/dimegan/Downloads/json aklara suppliers-1.txt",
+		"/Users/dimegan/Desktop/pruebas-vol-curl.txt",
+		"/Applications/MAMP/htdocs/revista-jilo/wp-content/plugins/hello.php",
+		"/Users/dimegan/Downloads/maquetas/Elegant Vector Kit - for Smashing Magazine/All/nastifunny  without shadows and background .svg",
+		"/Users/dimegan/Documents/mysql max_allow-packet.txt",
+		"/Users/dimegan/Desktop/jsons-sap.txt",
+		"/Users/dimegan/Downloads/bootstrap-3.3.5-dist/js/bootstrap.min.js",
+		"/Applications/MAMP/htdocs/jilo-shop/wp-content/themes/mystile/css/layout.css",
+		"/Users/dimegan/Downloads/bootstrap-3.3.5-dist/css/bootstrap.min.css",
+		"/Users/dimegan/Downloads/reporte-final.xls",
+		"/Applications/MAMP/htdocs/agora.sync/js/application/main.js"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*",
+			"*.php",
+			"*",
+			"*.php",
+			"*",
+			"*.php",
+			"",
+			"*.php",
+			"*",
+			"*.php",
+			".php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"disenio",
+			"Diseño de logotipo, tarjetas de presentación",
+			"footer",
+			"contact",
+			"sma",
+			"counter",
+			"php",
+			"Remove_action",
+			");\n",
+			"5s",
+			"$routeParams",
+			"image-gallery",
+			"photos-portfolio",
+			"getDesignGallery",
+			"body",
+			"index",
+			"0",
+			"bind",
+			"modal",
+			"contactSection",
+			"workOffset",
+			"bindScrollEvent",
+			"window",
+			"media",
+			"coco-service",
+			"work-item",
+			"feature-design",
+			"inner-feature",
+			"showGallery",
+			"getDesignGallery",
+			"ctrl.photos",
+			"250",
+			"photos-portfolio",
+			"#photos-portfolio",
+			"animate-enter",
+			"anim",
+			"gallery-item",
+			"anima",
+			"fb",
+			"marketing-work",
+			"hover",
+			"windo",
+			"workis",
+			"trabajo",
+			"iniCtrl",
+			"transi",
+			"coco-feture",
+			"widget",
+			"facebook",
+			"odc",
+			";\n",
+			"cus",
+			"dmg_add_facebook_meta_info",
+			"img-single.html",
+			"contac",
+			"traba",
+			"singleImage",
+			"imgModal",
+			"ng",
+			"texto",
+			"logger",
+			"resolveAlways",
+			"routehelperConfigProvider",
+			"routehelperConfig",
+			"location",
+			"routehelperConfig",
+			"$routeProvider",
+			"logger",
+			"routeProvider",
+			"route",
+			"ng",
+			"header",
+			"#colophon",
+			"footer",
+			"site-info",
+			"menu-menuestrategia-container",
+			"background-image: url(images/custom/textura.jpg)",
+			"#colophon",
+			"url",
+			"toogle",
+			"home",
+			"site-navigation",
+			"main-navigation",
+			"webly-read-more",
+			"back-est-action",
+			"action",
+			"footer",
+			".pagination ",
+			".pagination span.current",
+			"back",
+			"#colophon",
+			"footer",
+			"resul",
+			"search for naything on this site",
+			"widget",
+			"bootstrap",
+			"a:hover, a:focus, a:active",
+			"cp-thumb-small",
+			"5px",
+			"top",
+			"dmg",
+			"#primary-home",
+			"entry-title",
+			"helper",
+			"#primary-home .entry-title ",
+			".webly-read-more",
+			"webly-read-more",
+			"#site-navigation li:hover > a",
+			"#site-navigation li",
+			"#header-2",
+			"bootstrap",
+			"#secondary .widget",
+			"home",
+			"dmg",
+			"tptn_posts_widget",
+			"entry-meta",
+			"$post_thumb_op",
+			"cp-title-small",
+			"single-sidebar",
+			"get_sidebar",
+			"#primary-home .entry-title",
+			".entry-title",
+			"a",
+			".entry-title",
+			".single .entry-title, .page .entry-title",
+			"<div class=\"content-area container\">\n			<div class=\"row\">\n				<div class=\"col-md-8\">\n					<?php get_template_part( 'single', 'header' ); ?>\n					<main id=\"main\" class=\"site-main\" role=\"main\">\n						<?php get_template_part( 'content', 'single' ); ?>\n					</main><!-- #main -->\n				</div>\n				<div class=\"col-md-4\">\n					<h3>Side bar</h3>\n					<span>\n						Bienvenido a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡y comienza a publicar!.\n					</span>\n				</div>\n			</div>\n		</div><!-- #content -->",
+			"conta",
+			"servicios"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"diseno",
+			"valoresAgrupados",
+			"00aeff",
+			"",
+			"'",
+			"437px",
+			" ",
+			"-",
+			" -",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "chailate-back.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
