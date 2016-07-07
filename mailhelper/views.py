@@ -22,6 +22,6 @@ class GetUser(generics.RetrieveUpdateDestroyAPIView):
 	queryset = User.objects.all()
 
 class GetUsers(generics.ListCreateAPIView):
-	permission_classes = [permissions.IsAuthenticated, TokenHasScope]
+	permission_classes = [permissions.IsAuthenticated]
 	serializer_class = UserSerializer
 	queryset = User.objects.all()
