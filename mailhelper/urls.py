@@ -4,7 +4,8 @@ from views import (
 	HolaMundo,
 	AllUsers,
 	GetUser,
-	GetUsers
+	GetUsers,
+	SendMail
 )
 
 urlpatterns = patterns('mailhelper.views',
@@ -14,6 +15,8 @@ urlpatterns = patterns('mailhelper.views',
     url(r'^getusers/$', GetUsers.as_view()),
     ## API authentication 
     url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
+    ## Mail urls
+    url(r'^SendMail/$', SendMail.as_view()),
 )
 
 urlpatterns = format_suffix_patterns(urlpatterns)
