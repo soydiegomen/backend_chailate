@@ -11,6 +11,9 @@ from rest_framework.parsers import JSONParser
 import requests
 ##Read environment variables
 import os
+from .models import (
+	MailLog
+	)
 
 # Create your views here.
 
@@ -35,7 +38,12 @@ class GetUsers(generics.ListCreateAPIView):
 class SendMail(APIView):
 	parser_classes = (JSONParser,)
 
+	def save_maillog(self, maildata):
+		maildata.save()
+
 	def get(self, request):
+		
+
 		return Response({'mensaje' : 'Prueba envio de correo con mailgun GET'})
 	def post(self, request):
 	 	#from_mail = "Agencia Chailate"
@@ -59,11 +67,19 @@ class SendMail(APIView):
 	 		"<b>Chailate rules!!</b>"
 	 		)
 
+	 	mail = MailLog()
+		mail.from_field = 'dmendoza@mail.com'
+		mail.to_field = to_mail
+		mail.subject_field = subject_mail
+		mail.body_field = body_mail
+
 	 	result_status = "undefined"
 
+	 	##Get mailgun api from environment
 	 	mailgun_api = os.environ.get("MAILGUN_API", None)
 	 	print mailgun_api
 
+	 	##If mailgun api is not definef return a error
 	 	if mailgun_api is None:
 	 		return Response({'result' : result_status, 'error' : 'Mailgun api is not set' })
 		
@@ -76,6 +92,8 @@ class SendMail(APIView):
 	              "subject": subject_mail,
 	              "html": body_mail})
 			result_status = result.status_code
+			##Save mail log in DB
+			self.save_maillog(mail)
 			print result.text
 		except Exception,e:
 			result_status = "Faild to send mail(exception)"
@@ -83,3 +101,5 @@ class SendMail(APIView):
 			print str(e)
 
 		return Response({'result' : result_status })
+
+	
