@@ -42,64 +42,51 @@ class SendMail(APIView):
 		maildata.save()
 
 	def get(self, request):
-		
-
 		return Response({'mensaje' : 'Prueba envio de correo con mailgun GET'})
+
 	def post(self, request):
-	 	#from_mail = "Agencia Chailate"
-	 	# to_mail = "dimegan@gmail.com"
-	 	from_mail = request.data["nameFrom"]
-	 	to_mail = request.data["mailTo"]
+	 	from_name = request.data["nameFrom"]
 	 	to_name = request.data["nameTo"]
-	 	
 	 	contactName = request.data["contactName"]
 	 	contactEmail = request.data["contactEmail"]
 	 	contactMessage = request.data["contactMessage"]
-	 	subject_mail = request.data["subject"]
-
-	 	body_mail = ("<h1>Super titulo de mail</h1><p>Contacto: " 
-	 		+ contactEmail +
-	 		"<br/>Nombre:" 
-	 		+ contactName +
-	 		"<br/>Mensaje:" 
-	 		+ contactMessage +
-	 		"</p><br/>"
-	 		"<b>Chailate rules!!</b>"
-	 		)
-
+	 	
 	 	mail = MailLog()
-		mail.from_field = 'dmendoza@mail.com'
-		mail.to_field = to_mail
-		mail.subject_field = subject_mail
+		mail.from_field = 'postmaster@chailate.com'
+		mail.to_field = request.data["mailTo"]
+		mail.subject_field = request.data["subject"]
+
+	 	body_mail = "<h1>Super titulo de mail</h1><p>Contacto: {0} <br/>Nombre: {1} <br/>Mensaje: {2}</p><br/><b>Chailate rules!!</b>".format(contactEmail,contactName, contactMessage)
+	 	
 		mail.body_field = body_mail
 
-	 	result_status = "undefined"
+		#Default response
+		result = { 'result_code' : '0', 'error' : '' }
 
 	 	##Get mailgun api from environment
 	 	mailgun_api = os.environ.get("MAILGUN_API", None)
-	 	print mailgun_api
-
 	 	##If mailgun api is not definef return a error
 	 	if mailgun_api is None:
-	 		return Response({'result' : result_status, 'error' : 'Mailgun api is not set' })
-		
+	 		result['result_code'] = '500'
+			result['error'] = 'Mailgun api is not set'
+	 		return Response(result)
+
 		try:
-			result = requests.post(
+			mail_response = requests.post(
 	        "https://api.mailgun.net/v3/chailate.com/messages",
 	        auth=("api", mailgun_api),
-	        data={"from": from_mail + " <postmaster@chailate.com>",
-	              "to": to_name+" <"+ to_mail +">",
-	              "subject": subject_mail,
+	        data={"from": from_name + " <"+mail.from_field+">",
+	              "to": to_name+" <"+ mail.to_field +">",
+	              "subject": mail.subject_field,
 	              "html": body_mail})
-			result_status = result.status_code
 			##Save mail log in DB
 			self.save_maillog(mail)
-			print result.text
+			result['result_code'] = mail_response.status_code
 		except Exception,e:
-			result_status = "Faild to send mail(exception)"
-			print "faild to send mail"
+			result['result_code'] = '500'
+			result['error'] = str(e)
 			print str(e)
 
-		return Response({'result' : result_status })
+		return Response(result)
 
 	
