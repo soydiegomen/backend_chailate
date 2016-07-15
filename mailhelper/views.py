@@ -14,6 +14,7 @@ import os
 from .models import (
 	MailLog
 	)
+from django.core.exceptions import ValidationError, NON_FIELD_ERRORS
 
 # Create your views here.
 
@@ -38,9 +39,6 @@ class GetUsers(generics.ListCreateAPIView):
 class SendMail(APIView):
 	parser_classes = (JSONParser,)
 
-	def save_maillog(self, maildata):
-		maildata.save()
-
 	def get(self, request):
 		return Response({'mensaje' : 'Prueba envio de correo con mailgun GET'})
 
@@ -56,14 +54,27 @@ class SendMail(APIView):
 		mail.to_field = request.data["mailTo"]
 		mail.subject_field = request.data["subject"]
 
-	 	body_mail = "<h1>Super titulo de mail</h1><p>Contacto: {0} <br/>Nombre: {1} <br/>Mensaje: {2}</p><br/><b>Chailate rules!!</b>".format(contactEmail,contactName, contactMessage)
+	 	body_mail = '''<h1>Super titulo de mail</h1><p>
+	 	Contacto: {0} <br/>Nombre: {1} <br/>
+	 	Mensaje: {2}</p><br/><b>
+	 	Chailate rules!!</b>'''.format(
+	 		contactEmail,contactName, contactMessage)
 	 	
 		mail.body_field = body_mail
 
-		#Default response
-		result = { 'result_code' : '0', 'error' : '' }
+	 	result = self.sendMail_usingMailgun(mail, from_name, to_name)
 
-	 	##Get mailgun api from environment
+		return Response(result)
+
+	def save_maillog(self, maildata):
+		maildata.save()
+
+	def sendMail_usingMailgun(self, mail, from_name, to_name):
+
+		#Default response
+		result = { 'result_code' : '0', 'error' : '' }		
+
+		##Get mailgun api from environment
 	 	mailgun_api = os.environ.get("MAILGUN_API", None)
 	 	##If mailgun api is not definef return a error
 	 	if mailgun_api is None:
@@ -71,22 +82,31 @@ class SendMail(APIView):
 			result['error'] = 'Mailgun api is not set'
 	 		return Response(result)
 
+	 	try:
+	 		mail.full_clean()
+	 		print 'No errors'
+	 	except ValidationError as ex:
+	 		print 'Error'
+	 		print str(ex)
+	 		# non_field_errors = ex.message_dict[NON_FIELD_ERRORS]
+	 		# print non_field_errors
+
 		try:
 			mail_response = requests.post(
 	        "https://api.mailgun.net/v3/chailate.com/messages",
 	        auth=("api", mailgun_api),
-	        data={"from": from_name + " <"+mail.from_field+">",
-	              "to": to_name+" <"+ mail.to_field +">",
+	        data={"from": "{0} <{1}>".format(from_name, mail.from_field),
+	              "to": "{0} <{1}>".format(to_name, mail.to_field),
 	              "subject": mail.subject_field,
-	              "html": body_mail})
+	              "html": mail.body_field})
+
 			##Save mail log in DB
-			self.save_maillog(mail)
+			# self.save_maillog(mail)
+
 			result['result_code'] = mail_response.status_code
 		except Exception,e:
 			result['result_code'] = '500'
 			result['error'] = str(e)
 			print str(e)
 
-		return Response(result)
-
-	
+		return result

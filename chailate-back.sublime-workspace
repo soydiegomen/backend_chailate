@@ -375,7 +375,7 @@
 			"file": "mailhelper/views.py",
 			"settings":
 			{
-				"buffer_size": 3061,
+				"buffer_size": 3383,
 				"line_ending": "Unix"
 			}
 		},
@@ -616,6 +616,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"print",
+			"sendMail_usingMailgun",
+			")",
+			"json",
 			"model",
 			"name",
 			"to_ma",
@@ -739,11 +743,7 @@
 			"tptn_posts_widget",
 			"entry-meta",
 			"$post_thumb_op",
-			"cp-title-small",
-			"single-sidebar",
-			"get_sidebar",
-			"#primary-home .entry-title",
-			".entry-title"
+			"cp-title-small"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -808,24 +808,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3061,
+						"buffer_size": 3383,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2471,
-								2471
+								2723,
+								2723
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2131.0,
+						"translation.y": 2167.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -858,7 +859,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -944,7 +945,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
