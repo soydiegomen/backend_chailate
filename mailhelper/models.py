@@ -14,5 +14,5 @@ class MailLog(models.Model):
 	body_field = models.TextField()
 	send_date = models.DateTimeField(auto_now_add=True, auto_now=False)
 	def __unicode__(self):
-		return self.subject_field
+		return str(self.send_date)
 	

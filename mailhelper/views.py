@@ -50,27 +50,22 @@ class SendMail(APIView):
 	 	contactMessage = request.data["contactMessage"]
 	 	
 	 	mail = MailLog()
-		mail.from_field = 'postmaster@chailate.com'
+	 	##User default for send mails
+		mail.from_field = 'postmaster@chailate.com' 
 		mail.to_field = request.data["mailTo"]
 		mail.subject_field = request.data["subject"]
 
-	 	body_mail = '''<h1>Super titulo de mail</h1><p>
+	 	mail.body_field = '''<h1>Super titulo de mail</h1><p>
 	 	Contacto: {0} <br/>Nombre: {1} <br/>
 	 	Mensaje: {2}</p><br/><b>
 	 	Chailate rules!!</b>'''.format(
 	 		contactEmail,contactName, contactMessage)
-	 	
-		mail.body_field = body_mail
 
 	 	result = self.sendMail_usingMailgun(mail, from_name, to_name)
 
 		return Response(result)
 
-	def save_maillog(self, maildata):
-		maildata.save()
-
 	def sendMail_usingMailgun(self, mail, from_name, to_name):
-
 		#Default response
 		result = { 'result_code' : '0', 'error' : '' }		
 
@@ -80,18 +75,13 @@ class SendMail(APIView):
 	 	if mailgun_api is None:
 	 		result['result_code'] = '500'
 			result['error'] = 'Mailgun api is not set'
-	 		return Response(result)
-
-	 	try:
-	 		mail.full_clean()
-	 		print 'No errors'
-	 	except ValidationError as ex:
-	 		print 'Error'
-	 		print str(ex)
-	 		# non_field_errors = ex.message_dict[NON_FIELD_ERRORS]
-	 		# print non_field_errors
-
+	 		return result
+ 	
 		try:
+			##Validate data before send mail and save log
+	 		mail.full_clean()
+
+	 		##Sen Mail using mailgun
 			mail_response = requests.post(
 	        "https://api.mailgun.net/v3/chailate.com/messages",
 	        auth=("api", mailgun_api),
@@ -100,13 +90,21 @@ class SendMail(APIView):
 	              "subject": mail.subject_field,
 	              "html": mail.body_field})
 
-			##Save mail log in DB
-			# self.save_maillog(mail)
-
 			result['result_code'] = mail_response.status_code
+
+			##Save mail log in DB
+			mail.save()
+			
+		except ValidationError as ex:
+	 		error_message = ''
+	 		##Loop dictionary with errors
+	 		for k in ex.message_dict:
+	 			error_message += error_message.join(ex.message_dict[k])
+
+	 		result['result_code'] = '500'
+	 		result['error'] = error_message
 		except Exception,e:
 			result['result_code'] = '500'
 			result['error'] = str(e)
-			print str(e)
 
 		return result
