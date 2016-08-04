@@ -15,11 +15,15 @@ from .models import (
 	MailLog
 	)
 from django.core.exceptions import ValidationError, NON_FIELD_ERRORS
+from django.conf import settings
 
 # Create your views here.
 
 class HolaMundo(APIView):
 	def get(self, request, nombre, format=None):
+		print 'Mailgun api'
+		if hasattr(settings, 'MAILGUN_API'):
+			print settings.MAILGUN_API
 		return Response({'mensaje' : 'Hola Mundo API rest', 'miname' : 'Mi nombre es->' + nombre})
 
 class AllUsers(generics.ListCreateAPIView):
@@ -68,11 +72,13 @@ class SendMail(APIView):
 	def sendMail_usingMailgun(self, mail, from_name, to_name):
 		#Default response
 		result = { 'result_code' : '0', 'error' : '' }		
-
-		##Get mailgun api from environment
-	 	mailgun_api = os.environ.get("MAILGUN_API", None)
+		
+	 	mailgun_api = ''
 	 	##If mailgun api is not definef return a error
-	 	if mailgun_api is None:
+	 	if hasattr(settings, 'MAILGUN_API'):
+	 		##Get mailgun api from settings file
+			mailgun_api = settings.MAILGUN_API
+		else:
 	 		result['result_code'] = '500'
 			result['error'] = 'Mailgun api is not set'
 	 		return result

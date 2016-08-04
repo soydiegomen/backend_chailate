@@ -363,62 +363,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "mailhelper/serializers.py",
-			"settings":
-			{
-				"buffer_size": 220,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mailhelper/views.py",
-			"settings":
-			{
-				"buffer_size": 3442,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mailhelper/urls.py",
-			"settings":
-			{
-				"buffer_size": 668,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chailate_backend/settings.py",
-			"settings":
-			{
-				"buffer_size": 3037,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chailate_backend/urls.py",
-			"settings":
-			{
-				"buffer_size": 330,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mailhelper/models.py",
-			"settings":
-			{
-				"buffer_size": 543,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mailhelper/admin.py",
-			"settings":
-			{
-				"buffer_size": 168,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -459,7 +403,13 @@
 	],
 	"file_history":
 	[
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/admin.py",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/models.py",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/chailate_backend/urls.py",
 		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/chailate_backend/settings.py",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/urls.py",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/serializers.py",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/views.py",
 		"/Users/dimegan/Desktop/SCRUM open-close.txt",
 		"/Applications/MAMP/htdocs/jilo-magazine/wp-config.php",
 		"/Applications/MAMP/htdocs/devstudio/chailate/blog/wp-config.php",
@@ -580,13 +530,7 @@
 		"/Users/dimegan/Desktop/pruebas-vol-curl.txt",
 		"/Applications/MAMP/htdocs/revista-jilo/wp-content/plugins/hello.php",
 		"/Users/dimegan/Downloads/maquetas/Elegant Vector Kit - for Smashing Magazine/All/nastifunny  without shadows and background .svg",
-		"/Users/dimegan/Documents/mysql max_allow-packet.txt",
-		"/Users/dimegan/Desktop/jsons-sap.txt",
-		"/Users/dimegan/Downloads/bootstrap-3.3.5-dist/js/bootstrap.min.js",
-		"/Applications/MAMP/htdocs/jilo-shop/wp-content/themes/mystile/css/layout.css",
-		"/Users/dimegan/Downloads/bootstrap-3.3.5-dist/css/bootstrap.min.css",
-		"/Users/dimegan/Downloads/reporte-final.xls",
-		"/Applications/MAMP/htdocs/agora.sync/js/application/main.js"
+		"/Users/dimegan/Documents/mysql max_allow-packet.txt"
 	],
 	"find":
 	{
@@ -616,6 +560,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			":",
 			"print",
 			"code",
 			"sendMail_usingMailgun",
@@ -742,8 +687,7 @@
 			"bootstrap",
 			"#secondary .widget",
 			"home",
-			"dmg",
-			"tptn_posts_widget"
+			"dmg"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -771,211 +715,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "mailhelper/serializers.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								174
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "mailhelper/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3442,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1693,
-								1693
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1269.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "mailhelper/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 668,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189,
-								189
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "chailate_backend/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3037,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2685,
-								2685
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3158.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "chailate_backend/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 330,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								131,
-								131
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "mailhelper/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 543,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								541,
-								541
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "mailhelper/admin.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								101,
-								101
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],

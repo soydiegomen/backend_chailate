@@ -16,7 +16,7 @@ urlpatterns = patterns('mailhelper.views',
     ## API authentication 
     url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
     ## Mail urls
-    url(r'^SendMail/$', SendMail.as_view()),
+    url(r'^sendmail/$', SendMail.as_view()),
 )
 
 urlpatterns = format_suffix_patterns(urlpatterns)
