@@ -403,13 +403,15 @@
 	],
 	"file_history":
 	[
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/chailate_backend/settings_local.py",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/chailate_backend/settings.py",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/views.py",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/urls.py",
+		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/chailate_backend/sample_settings_local.py",
 		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/admin.py",
 		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/models.py",
 		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/chailate_backend/urls.py",
-		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/chailate_backend/settings.py",
-		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/urls.py",
 		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/serializers.py",
-		"/Users/dimegan/django-projects/chailate-backend/chailate_backend/mailhelper/views.py",
 		"/Users/dimegan/Desktop/SCRUM open-close.txt",
 		"/Applications/MAMP/htdocs/jilo-magazine/wp-config.php",
 		"/Applications/MAMP/htdocs/devstudio/chailate/blog/wp-config.php",
@@ -528,13 +530,11 @@
 		"/Users/dimegan/Downloads/json aklara Request status-1.txt",
 		"/Users/dimegan/Downloads/json aklara suppliers-1.txt",
 		"/Users/dimegan/Desktop/pruebas-vol-curl.txt",
-		"/Applications/MAMP/htdocs/revista-jilo/wp-content/plugins/hello.php",
-		"/Users/dimegan/Downloads/maquetas/Elegant Vector Kit - for Smashing Magazine/All/nastifunny  without shadows and background .svg",
-		"/Users/dimegan/Documents/mysql max_allow-packet.txt"
+		"/Applications/MAMP/htdocs/revista-jilo/wp-content/plugins/hello.php"
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -560,6 +560,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"secret",
 			":",
 			"print",
 			"code",
@@ -686,8 +687,7 @@
 			"#header-2",
 			"bootstrap",
 			"#secondary .widget",
-			"home",
-			"dmg"
+			"home"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -722,7 +722,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 40.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -759,7 +759,7 @@
 	"project": "chailate-back.sublime-project",
 	"replace":
 	{
-		"height": 76.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -797,7 +797,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 283.0,
+	"side_bar_width": 73.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

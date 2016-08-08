@@ -41,10 +41,12 @@ INSTALLED_APPS = (
     'mailhelper',
     'rest_framework',
     'oauth2_provider',
+    'corsheaders',
 )
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -108,5 +110,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.AllowAny',
     )
 }
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 from settings_local import *

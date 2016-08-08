@@ -49,9 +49,9 @@ class SendMail(APIView):
 	def post(self, request):
 	 	from_name = request.data["nameFrom"]
 	 	to_name = request.data["nameTo"]
-	 	contactName = request.data["contactName"]
-	 	contactEmail = request.data["contactEmail"]
-	 	contactMessage = request.data["contactMessage"]
+	 	contactName = request.data["contactName"].encode('utf8')
+	 	contactEmail = request.data["contactEmail"].encode('utf8')
+	 	contactMessage = request.data["contactMessage"].encode('utf8')
 	 	
 	 	mail = MailLog()
 	 	##User default for send mails
